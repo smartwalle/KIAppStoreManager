@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "KIAppStoreManager"
-  s.version      = "0.1"
+  s.version      = "0.0.1"
   s.summary      = "KIAppStoreManager"
   s.description  = <<-DESC
                   KIAppStoreManager.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "SmartWalle" => "smartwalle@gmail.com" }
   s.platform     = :ios, "5.0"
-  s.source       = { :git => "https://github.com/smartwalle/KIAppStoreManager.git", :branch => "master" }
+  s.source       = { :git => "https://github.com/smartwalle/KIAppStoreManager.git", :tag => "#{s.version}" }
   s.source_files  = "KIAppStoreManager/KIAppStoreManager/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
